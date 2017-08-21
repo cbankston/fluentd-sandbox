@@ -1,0 +1,9 @@
+{"namespace":"example1","service_name":"identity","message":"identity started"}
+{"namespace":"example2","service_name":"identity","message":"identity started"}
+{"namespace":"example","service_name":"email","message":"email was sent!"}
+{"namespace":"example1","service_name":"identity","message":"identity received an item"}
+{"namespace":"example2","service_name":"identity","message":"identity received an item"}
+{"namespace":"example","service_name":"csv-parser","message":"failed to read csv file"}
+{"namespace":"example1","service_name":"identity","message":"identity relayed the item"}
+{"namespace":"example2","service_name":"identity","message":"identity relayed the item"}
+{"namespace":"example","service_name":"branding","message":"Brand lookup was successful"}

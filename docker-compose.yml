@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  fluentd:
+    build:
+      context: .
+    volumes:
+      - .:/app
+      - ./fluent.conf:/fluentd/etc/fluent.conf
